@@ -44,15 +44,11 @@ const Actions = ({
             <FeedbackButton
               isSelected={selectedFeedback === true}
               handleFeedback={() => handleFeedback(true)}
-              tooltipId={`${chatId}-thumbs-up`}
-              tooltipContent="Good response"
               IconComponent={ThumbsUp}
             />
             <FeedbackButton
               isSelected={selectedFeedback === false}
               handleFeedback={() => handleFeedback(false)}
-              tooltipId={`${chatId}-thumbs-down`}
-              tooltipContent="Bad response"
               IconComponent={ThumbsDown}
             />
           </>
@@ -103,10 +99,8 @@ function CopyMessage({ message }) {
       <div className="mt-3 relative">
         <button
           onClick={() => copyText(message)}
-          data-tooltip-id="copy-assistant-text"
-          data-tooltip-content="Copy"
           className="text-zinc-300"
-          aria-label="Copy"
+          aria-label="复制"
         >
           {copied ? (
             <Check size={18} className="mb-1" />

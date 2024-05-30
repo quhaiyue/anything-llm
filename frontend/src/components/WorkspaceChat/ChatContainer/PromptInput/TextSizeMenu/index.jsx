@@ -11,8 +11,6 @@ export default function TextSizeButton() {
       <div
         ref={buttonRef}
         id="text-size-btn"
-        data-tooltip-id="tooltip-text-size-btn"
-        data-tooltip-content="Change text size"
         aria-label="Change text size"
         onClick={() => setShowTextSizeMenu(!showTextSizeMenu)}
         className={`relative flex justify-center items-center opacity-60 hover:opacity-100 cursor-pointer ${

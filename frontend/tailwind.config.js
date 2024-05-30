@@ -23,11 +23,18 @@ export default {
       colors: {
         "black-900": "#141414",
         accent: "#3D4147",
-        "sidebar-button": "#31353A",
-        sidebar: "#25272C",
+        "sidebar-button": "#4096e1",
+        sidebar: "#fff",
         "historical-msg-system": "rgba(255, 255, 255, 0.05);",
-        "historical-msg-user": "#2C2F35",
-        outline: "#4E5153"
+        "historical-msg-user": "#fff",
+        outline: "#f0f0f0",
+        "zinc-200": "#333",
+        "zinc-800": "#f0f0f0",
+        "zinc-700": "#f0f0f0",
+        "slate-300": '#666',
+        "slate-400": "#666",
+        "slate-100": '#333',
+        "white": '#333'
       },
       backgroundImage: {
         "preference-gradient":
@@ -36,7 +43,7 @@ export default {
           "linear-gradient(180deg, #3D4147 0%, #2C2F35 100%);",
         "selected-preference-gradient":
           "linear-gradient(180deg, #313236 0%, rgba(63.40, 64.90, 70.13, 0) 100%);",
-        "main-gradient": "linear-gradient(180deg, #3D4147 0%, #2C2F35 100%)",
+        "main-gradient": "linear-gradient(180deg, #fff 0%, #fff 100%)",
         "modal-gradient": "linear-gradient(180deg, #3D4147 0%, #2C2F35 100%)",
         "sidebar-gradient": "linear-gradient(90deg, #5B616A 0%, #3F434B 100%)",
         "login-gradient": "linear-gradient(180deg, #3D4147 0%, #2C2F35 100%)",
@@ -47,7 +54,7 @@ export default {
         "workspace-item-gradient":
           "linear-gradient(90deg, #3D4147 0%, #2C2F35 100%)",
         "workspace-item-selected-gradient":
-          "linear-gradient(90deg, #5B616A 0%, #3F434B 100%)",
+          "linear-gradient(90deg, #333 0%, #666 100%)",
         "switch-selected": "linear-gradient(146deg, #5B616A 0%, #3F434B 100%)"
       },
       fontFamily: {

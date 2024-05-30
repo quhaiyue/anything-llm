@@ -113,7 +113,7 @@ export function SidebarMobileHeader() {
           <img
             src={logo}
             alt="Logo"
-            className="block mx-auto h-6 w-auto"
+            className="block mx-auto h-16 w-auto"
             style={{ maxHeight: "40px", objectFit: "contain" }}
           />
         </div>
