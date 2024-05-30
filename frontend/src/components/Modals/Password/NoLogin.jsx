@@ -30,8 +30,8 @@ export default function NoLoginUserAuth() {
     setLoading(true);
 
     const data = {
-      username: 'primihub',
-      password: 'primihub'
+      username: 'phclients',
+      password: 'phclients'
     };
 
     const { valid, user, token, message, recoveryCodes } =
