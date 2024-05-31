@@ -100,7 +100,7 @@ export default function ChatHistory({
             </p>
           ) : (
             <p className="w-full items-center text-white/60 text-lg font-base flex flex-col md:flex-row gap-x-1">
-              欢迎来到OpenMPC数据问答 <b className="font-medium italic">您可发送消息或上传文档与我交流</b>
+              <b className="font-medium italic">您可发送消息或上传文档与我交流</b>
             </p>
           )}
           <WorkspaceChatSuggestions
