@@ -366,13 +366,13 @@ dialog::backdrop {
 }
 
 .user-reply > div:first-of-type {
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 .reply > *:last-child::after {
   content: "|";
   animation: blink 1.5s steps(1) infinite;
-  color: white;
+  color: black;
   font-size: 14px;
 }
 
@@ -499,7 +499,7 @@ dialog::backdrop {
 }
 
 .markdown table thead {
-  color: #fff;
+  color: #333;
   text-transform: uppercase;
   font-weight: bolder;
 }
@@ -612,7 +612,7 @@ dialog::backdrop {
 
 .markdown strong {
   font-weight: 600;
-  color: #fff;
+  color: #333;
 }
 
 .file-row:nth-child(even) {
@@ -682,7 +682,7 @@ does not extend the close button beyond the viewport. */
 
 /* Recharts rendering styles */
 .recharts-text > * {
-  fill: #fff;
+  fill: #333;
 }
 
 .recharts-legend-wrapper {
